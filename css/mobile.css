@@ -1,0 +1,369 @@
+@media (max-width: 380px) {
+  .leafs {
+    display: none;
+  }
+
+    header {
+      max-width: 330px;
+      margin: 0 auto;
+    }
+
+/* Секция welcome */
+
+  .welcome {
+    padding-top: 5px;
+    height: 272px;
+  }
+
+  .welcome__section {
+    max-width: 330px;
+    margin: 0 auto;
+    height: 250px;
+    flex-direction: column;
+  }
+
+  .welcome__top__text {
+    height: 75px;
+  }
+  .welcome__top__text h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .welcome__main__text {
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .welcome__button button {
+    font-size: 10px;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+  }
+
+/* Секция about */
+
+  .about {
+    height: 100%;
+  }
+
+  .about__info__block {
+    max-width: 330px;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  .about__top__text h2 {
+    font-size: 25px;
+    line-height: 32.57px;
+  }
+
+  .about__main__text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .pot--img img {
+    width: 150px;
+    margin-bottom: 0px;
+  }
+
+/* Секция Service */
+
+  .service {
+    height: 100%;
+  }
+
+  .wraper__services {
+    height: 100%;
+  }
+
+  .services__content {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .services__buttons {
+    flex-wrap: wrap;
+  }
+
+  .services__buttons button {
+    width: 121px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .services__content__top__button3 {
+    margin-bottom: 28px;
+  }
+
+  .services__content__top__text h2 {
+    font-size: 25px;
+    line-height: 32.57px;
+    width: 185px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    height: 105px;
+  }
+
+  .services__block {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 280px;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .services__item1 {
+    width: 280px;
+  }
+
+  .services__item2 {
+    width: 280px;
+  }
+
+  .services__item3 {
+    width: 280px;
+  }
+  
+  .services__item4 {
+    width: 280px;
+  }
+
+  .services__item5 {
+    width: 280px;
+  }
+
+  .services__item6 {
+    width: 280px;
+    margin-bottom: 23px;
+  }
+
+/* Секция Prices */
+  .right__section__img img {
+    display: none;
+  }
+
+  .prices {
+    display: flex;
+    max-width: 330px;
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+  }
+
+  .left__section__text {
+    text-align: center;
+  }
+  .prices__right__section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prices__left__section {
+    align-items: center;
+  }
+
+  .left__section__text h2 {
+    font-size: 25px;
+    line-height: 30.26px;
+    padding-bottom: 36px;
+    padding-left: 7px;
+  }
+
+  .left__section__menu {
+    width: 224px;
+    height: 200px;
+    padding-top: 22px;
+  }
+
+  .left__section__menu select {
+    width: 180px;
+    height: 50px;
+    padding-right: 61px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+.right__section__text {
+  font-size: 20px;
+  line-height: 35px;
+  padding-bottom: 14px;
+  width: 230px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+.right__section__button button {
+  width: 121px;
+  font-size: 15px;
+  line-height: 20px;
+  height: 35px;
+  padding-bottom: 25%;
+  margin-bottom: 37px;
+}
+
+/* Секция contacts */
+    .contacts__top__text h2 {
+      font-size: 25px;
+      line-height: 32px;
+    }
+
+  .contacts__city {
+    padding-left: 45px;
+    padding-top: 80px;
+  }
+
+  .contacts__city select {
+    width: 300px;
+  }
+
+  .contacts {
+    height: 445px;
+  }
+
+  .woman__gardener {
+    width: 100px;
+  }
+
+  footer {
+    height: 146px;
+  }
+
+  /* Бургер меню */
+
+    #menu__toggle {
+      opacity: 0;
+    }
+  
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      right: 40px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 5;
+    }
+  
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #499A18;
+    }
+  
+    .menu__btn>span::before {
+      content: '';
+      top: -8px;
+    }
+  
+    .menu__btn>span::after {
+      content: '';
+      top: 8px;
+    }
+  
+    .menu__box {
+      display: block;
+      position: fixed;
+      visibility: hidden;
+      z-index: 10;
+      top: 0%;
+      left: -100%;
+      width: 250px;
+      height: 100%;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      text-align: center;
+      background-color: #ECEFF1;
+      box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    }
+  
+    /* элементы меню */
+    .menu__item {
+      display: flex;
+      flex-direction: column;
+      padding: 12px 24px;
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .menu__box li {
+      list-style: none;
+      display: block;
+      margin-right: 0px;
+    }
+  
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+  
+    #menu__toggle:checked~.menu__btn>span {
+      transform: rotate(45deg);
+    }
+  
+    #menu__toggle:checked~.menu__btn>span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+  
+    #menu__toggle:checked~.menu__btn>span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+  
+    #menu__toggle:checked ~ .menu__box {
+      visibility: visible;
+      left: 0;
+      top: 0;
+    }
+  
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+      transition-duration: .25s;
+    }
+  
+    .menu__box {
+      transition-duration: .25s;
+    }
+  
+    .menu__item {
+      transition-duration: .25s;
+    }
+
+    .menu__box li {
+      padding-top: 10px;
+    }
+
+    .services__content__top__button1 button,
+    .services__content__top__button2 button,
+    .services__content__top__button3 button
+    {
+      font-size: 16px;
+    }
+
+}
